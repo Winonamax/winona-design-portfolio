@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Winona Satishkumar — selected visual communication and spatial design work, 2026.">
+    <meta name="theme-color" content="#f7f8f6">
+    <title>Winona Satishkumar — Design Portfolio</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="home-page living-home">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="site-mark" href="index.html" aria-label="Winona Satishkumar, home">WS</a>
+      <nav class="site-nav" aria-label="Projects">
+        <a href="#selected-work">Work</a>
+        <a href="album-cover.html"><span aria-hidden="true">01 / </span>Album</a>
+        <a href="cat-park.html"><span aria-hidden="true">02 / </span>Cat Park</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="living-hero" id="living-hero" aria-labelledby="portfolio-name" aria-describedby="living-instructions animal-detail-instructions">
+        <svg class="ink-filter" aria-hidden="true" width="0" height="0">
+          <filter id="ink-wobble" x="-8%" y="-8%" width="116%" height="116%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.012 0.035" numOctaves="1" seed="8" result="ink-noise"/>
+            <feDisplacementMap in="SourceGraphic" in2="ink-noise" scale="1.15" xChannelSelector="R" yChannelSelector="G"/>
+          </filter>
+        </svg>
+        <svg class="path-layer" id="path-layer" aria-hidden="true" preserveAspectRatio="none">
+          <path class="drawn-path drawn-path--echo" id="drawn-path-echo" d=""/>
+          <path class="drawn-path" id="drawn-path" d=""/>
+        </svg>
+        <div class="living-identity page-shell">
+          <p class="living-kicker">Interdisciplinary Designer / Selected Work 2026</p>
+          <h1 class="living-name" id="portfolio-name">
+            <span>Winona</span>
+            <span>Satishkumar</span>
+          </h1>
+        </div>
+
+        <div class="animal-habitat" id="animal-habitat" aria-label="Interactive hand-drawn animals">
+          <div
+            class="animal animal--dachshund"
+            data-animal="dachshund"
+            data-name="Dachshund"
+            data-mobile-x="72"
+            data-mobile-y="52"
+            role="button"
+            tabindex="0"
+            aria-label="Dachshund. Press Enter for a head shake, Shift and Enter for a yawn, or use arrow keys to move."
+            style="--animal-x: 76%; --animal-y: 26%; --animal-size: clamp(9.65rem, 14.95vw, 15.5rem);"
+          >
+            <span class="animal__grab-hint" aria-hidden="true">drag</span>
+            <svg class="animal__figure" viewBox="0 0 270 150" aria-hidden="true" focusable="false">
+              <g class="animal__body-group">
+                <path class="animal__body" d="M61 72c39-24 119-24 166-4 20 9 21 30 2 39-46 20-128 15-169-4-18-9-17-21 1-31z"/>
+                <path class="sketch-line" d="M75 67c42-15 108-17 149-4m-147 45c42 10 105 12 147 1"/>
+                <path class="animal__belly" d="M76 103c45 12 107 14 151 2"/>
+                <g class="animal__legs">
+                  <path d="M84 104l-2 17m13-15 3 15m96-15-1 16m14-17 4 16"/>
+                </g>
+                <g class="animal__tail">
+                  <path d="M224 72c23-27 37-25 43-13"/>
+                </g>
+                <path class="animal__accent" d="M113 59l8 55m-17-46c18 7 34 7 49-1"/>
+              </g>
+              <g class="animal__head">
+                <path class="animal__ear animal__ear--front" d="M52 39C37 20 22 29 25 54c2 22 7 39 19 38 13-1 18-24 12-42-1-4-2-8-4-11z"/>
+                <path class="animal__ear animal__ear--back" d="M61 38c11-17 24-9 21 9-3 17-13 29-24 33"/>
+                <path d="M69 65c-1-24-15-38-32-31-10 4-13 12-13 20-9 1-17 4-23 10 8 8 20 12 34 10 8 14 30 8 34-9z"/>
+                <circle cx="44" cy="52" r="2.7" fill="currentColor" stroke="none"/>
+                <path class="animal__mouth" d="M10 67c8 4 17 4 25 0"/>
+                <path d="M4 61L0 64l5 4" fill="currentColor"/>
+                <path class="sketch-line" d="M13 72c8 2 15 1 22-3"/>
+              </g>
+            </svg>
+          </div>
+
+          <div
+            class="animal animal--cat"
+            data-animal="cat"
+            data-name="Cat"
+            data-mobile-x="84"
+            data-mobile-y="78"
+            role="button"
+            tabindex="0"
+            aria-label="Cat. Press Enter for a stretch, Shift and Enter for a yawn, or use arrow keys to move."
+            style="--animal-x: 86%; --animal-y: 78%; --animal-size: clamp(8.6rem, 12.65vw, 12.65rem);"
+          >
+            <span class="animal__grab-hint" aria-hidden="true">drag</span>
+            <svg class="animal__figure" viewBox="0 0 190 150" aria-hidden="true" focusable="false">
+              <g class="animal__tail"><path d="M137 92c37 7 45-20 33-39-8-13-23-3-16 7"/></g>
+              <g class="animal__body-group">
+                <path class="animal__body" d="M45 88c12-34 51-46 82-29 19 10 24 31 12 47-13 16-45 18-74 11-22-5-31-16-20-29z"/>
+                <path class="sketch-line" d="M57 80c18-20 49-25 71-12m-69 45c22 7 49 8 72-1"/>
+                <g class="animal__legs">
+                  <path d="M58 108l-22 24m34-18-4 20m52-21 9 20"/>
+                </g>
+              </g>
+              <g class="animal__head">
+                <path d="M42 80c-18-2-29-16-24-32 5-17 24-22 38-12 13 10 13 35-1 42z"/>
+                <path class="animal__ear" d="M23 44l3-22 15 16m3-3 13-19 2 27"/>
+                <circle cx="34" cy="53" r="2.4" fill="currentColor" stroke="none"/><circle cx="49" cy="51" r="2.4" fill="currentColor" stroke="none"/>
+                <path class="animal__mouth" d="M40 59c-2 5-7 7-12 5m12-5c3 4 8 5 12 2"/>
+                <path class="animal__whiskers" d="M28 57L8 54m21 8L9 69m42-13 18-6m-17 12 18 5"/>
+              </g>
+              <path class="animal__accent" d="M77 81c20-8 43-7 60 3"/>
+            </svg>
+          </div>
+
+          <div
+            class="animal animal--dog resident--waiting"
+            data-animal="dog"
+            data-name="Small dog"
+            data-mobile-x="16"
+            data-mobile-y="72"
+            role="button"
+            tabindex="-1"
+            aria-hidden="true"
+            aria-label="Small dog. Press Enter for a tail wag, Shift and Enter for a play bow, or use arrow keys to move."
+            style="--animal-x: 16%; --animal-y: 72%; --animal-size: clamp(6.8rem, 9vw, 9rem);"
+          >
+            <span class="animal__grab-hint" aria-hidden="true">drag</span>
+            <svg class="animal__figure" viewBox="0 0 170 145" aria-hidden="true" focusable="false">
+              <g class="animal__body-group">
+                <path class="animal__body" d="M48 70c20-18 62-14 82 7 14 15 9 34-8 39-24 6-62 4-79-9-14-10-8-26 5-37z"/>
+                <path class="sketch-line" d="M57 72c22-10 48-7 67 8"/>
+                <g class="animal__legs"><path d="M55 105l-8 28m22-24 2 25m38-22 6 22"/></g>
+              </g>
+              <g class="animal__tail"><path d="M127 77c23-19 34-7 31 6"/></g>
+              <g class="animal__head">
+                <path d="M48 76C27 77 14 60 20 42c7-19 31-20 44-5 10 13 3 34-16 39z"/>
+                <path class="animal__ear" d="M25 44C4 31 8 63 29 69m27-33c13-15 24 3 9 22"/>
+                <circle cx="42" cy="50" r="2.5" fill="currentColor" stroke="none"/>
+                <path d="M21 58l-7 2 7 4" fill="currentColor"/><path class="animal__mouth" d="M24 64c7 5 12 4 17 0"/>
+              </g>
+            </svg>
+          </div>
+
+          <div
+            class="animal animal--bird"
+            data-animal="bird"
+            data-name="Bird"
+            data-mobile-x="88"
+            data-mobile-y="15"
+            role="button"
+            tabindex="0"
+            aria-label="Bird. Press Enter for a hop and wing flutter, Shift and Enter for a larger flap, or use arrow keys to move."
+            style="--animal-x: 13%; --animal-y: 17%; --animal-size: clamp(5.15rem, 6.9vw, 7.1rem);"
+          >
+            <span class="animal__grab-hint" aria-hidden="true">drag</span>
+            <svg class="animal__figure" viewBox="0 0 120 110" aria-hidden="true" focusable="false">
+              <g class="animal__body-group">
+                <path class="animal__body" d="M29 60c2-25 28-41 51-27 21 13 13 42-9 50-19 7-44-3-42-23z"/>
+                <g class="animal__wing"><path d="M49 48c20 2 27 14 19 26-15 0-27-9-19-26z"/></g>
+                <path class="animal__accent animal__accent--bird" d="M50 56c7 0 12 3 15 9"/>
+                <path class="sketch-line" d="M36 68c12 9 28 11 41 3"/>
+                <path class="animal__tail" d="M76 78l23 12-11-23"/>
+                <circle cx="43" cy="47" r="2.5" fill="currentColor" stroke="none"/>
+                <path d="M30 52L13 59l17 3" fill="none"/>
+              </g>
+              <g class="animal__legs"><path d="M51 82l-2 15m18-16 4 14m-30 3h17m6-1h17"/></g>
+            </svg>
+          </div>
+
+          <div
+            class="animal animal--rabbit resident--waiting"
+            data-animal="rabbit"
+            data-name="Rabbit"
+            data-mobile-x="55"
+            data-mobile-y="79"
+            role="button"
+            tabindex="-1"
+            aria-hidden="true"
+            aria-label="Rabbit. Press Enter for an ear twitch, Shift and Enter for a small jump, or use arrow keys to move."
+            style="--animal-x: 58%; --animal-y: 79%; --animal-size: clamp(6rem, 8.5vw, 8.5rem);"
+          >
+            <span class="animal__grab-hint" aria-hidden="true">drag</span>
+            <svg class="animal__figure" viewBox="0 0 150 150" aria-hidden="true" focusable="false">
+              <g class="animal__body-group">
+                <path class="animal__body" d="M48 92c12-25 51-33 73-12 21 20 2 43-27 44-28 2-60-6-46-32z"/>
+                <path class="animal__accent animal__accent--rabbit" d="M70 88c14-8 31-9 43-1"/>
+                <path class="sketch-line" d="M57 111c18 8 40 8 57 1"/>
+                <circle class="animal__tail" cx="126" cy="91" r="12"/>
+                <g class="animal__legs"><path d="M66 115l-18 18m54-11 21 9"/></g>
+              </g>
+              <g class="animal__head">
+                <path d="M48 100c-20-1-29-15-22-31 7-16 27-19 39-7 13 13 3 37-17 38z"/>
+                <g class="animal__ears">
+                  <path d="M34 67C19 34 26 7 39 14c13 8 9 34 4 54"/>
+                  <path d="M48 66c-4-35 9-56 20-45 10 11-2 35-12 51"/>
+                </g>
+                <circle cx="44" cy="77" r="2.5" fill="currentColor" stroke="none"/>
+                <path d="M27 84l-8 3 8 4" fill="currentColor"/><path class="animal__whiskers" d="M28 85L8 81m20 10L9 99"/>
+              </g>
+            </svg>
+          </div>
+
+          <span class="animal-target" id="animal-target" aria-hidden="true"></span>
+        </div>
+
+        <div class="living-controls page-shell">
+          <p id="living-instructions">Meet the residents — try interacting with them.</p>
+          <div class="living-controls__actions">
+            <div class="interaction-mode" role="group" aria-label="Homepage interaction mode">
+              <button type="button" data-interaction-mode="interact" aria-pressed="true">Interact</button>
+              <span aria-hidden="true">/</span>
+              <button type="button" data-interaction-mode="path" aria-pressed="false">Draw a path</button>
+            </div>
+            <button class="text-button" id="reset-animals" type="button">RESET</button>
+          </div>
+        </div>
+        <p class="sr-only" id="animal-detail-instructions">Each resident is keyboard accessible. Press Enter for a primary reaction, Shift and Enter for a second reaction, or use the arrow keys to move. Draw Path mode lets a nearby resident follow a freehand line. Press Escape to leave Draw Path mode.</p>
+        <p class="sr-only" id="animal-status" aria-live="polite"></p>
+      </section>
+
+      <section class="living-work page-shell" id="selected-work" aria-labelledby="work-title">
+        <div class="section-heading-row">
+          <h2 id="work-title">Selected work</h2>
+          <p>Two projects / two ways of making</p>
+        </div>
+
+        <a class="living-project living-project--album" href="album-cover.html" data-project-animal="dachshund">
+          <div class="living-project__text">
+            <span class="project-number">01 / Visual Communication</span>
+            <h3>Hey Stupid,<br><em>I Love You</em></h3>
+            <p>Album Cover</p>
+            <span class="living-project__arrow" aria-hidden="true">↗</span>
+          </div>
+          <figure class="living-project__image living-project__image--square">
+            <img src="assets/images/album/final-cover.jpg" width="1800" height="1800" alt="Album cover featuring an extreme close-up of a dachshund shaking its head against a dusty blue background." fetchpriority="high">
+          </figure>
+        </a>
+
+        <a class="living-project living-project--cat" href="cat-park.html" data-project-animal="cat">
+          <figure class="living-project__image living-project__image--wide">
+            <img src="assets/images/cat/final-blender-hero.jpg" width="1800" height="920" alt="Final Blender view of an indoor cat park with a circular human lounge and a transparent elevated cat tunnel." loading="lazy">
+          </figure>
+          <div class="living-project__text">
+            <span class="project-number">02 / Spatial Design</span>
+            <h3>Future Indoor<br><em>Cat Park 2035</em></h3>
+            <p>3D Environment</p>
+            <span class="living-project__arrow" aria-hidden="true">↗</span>
+          </div>
+        </a>
+      </section>
+
+      <section class="home-intro page-shell" aria-label="Portfolio introduction">
+        <p>I’m Winona Satishkumar, an interdisciplinary designer exploring visual communication, spatial experiences, emerging technology, and the ways ideas move from experimentation into tangible design.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer page-shell">
+      <p>Winona Satishkumar</p>
+      <p>Interdisciplinary Design / 2026</p>
+      <a href="#main-content">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
